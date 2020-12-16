@@ -28,6 +28,6 @@ class DemoEmail extends Mailable
      */
     public function build()
     {
-        return $this->from('afpanoreply@gmail.com','AFPA GENERAL TRADERS (OPC) PVT LTD')->subject('Email Verification')->view('mails.email')->with('data', $this->data);
+        return $this->from('xxxx@gmail.com','AFPA GENERAL TRADERS (OPC) PVT LTD')->subject('Email Verification')->view('mails.email')->with('data', $this->data);
     }
 }
