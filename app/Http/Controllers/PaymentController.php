@@ -25,8 +25,8 @@ class PaymentController extends Controller
         $this->middleware('user');
     }
     
-    private $razorpayId = "rzp_live_y9JaZ0X1ZDH48V";
-    private $razorpayKey = "xwNqDB0w09NEfh5GO6TA44Ar";
+    private $razorpayId = "xxxxxxxxxxxxx";
+    private $razorpayKey = "xxxxxxxxxxxxxxxx";
 
      //Main Page of Subscription 
 
