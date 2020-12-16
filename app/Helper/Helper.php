@@ -81,9 +81,9 @@ class Helper
     {
         $api_key = '55F85D4F14DBD8';
         $contacts = $mobile;
-        $from = 'AFPAGT';
+        $from = 'XXXXX';
         $sms_text = urlencode($message);
-        $api_url = "http://msg.pwasms.com/app/smsapi/index.php?key=".$api_key."&campaign=0&routeid=9&type=text&contacts=".$contacts."&senderid=".$from."&msg=".$sms_text;
+        $api_url = "";
         echo $api_url;
         //Submit to server
         $response = file_get_contents( $api_url);
